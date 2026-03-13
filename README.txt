@@ -4,6 +4,9 @@ Node.js Internship Tracker
 Description:
 A simple full-stack project where students can track internship applications.
 
+## Live Website
+https://nodejs-internship-tracker.onrender.com
+
 Technologies:
 - Node.js
 - Express
