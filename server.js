@@ -1,9 +1,15 @@
-
 const express = require("express");
 const path = require("path");
+const mongoose = require("mongoose");
 
 const app = express();
 const PORT = 3000;
+
+mongoose.connect("mongodb+srv://pswati1105_db_user:<db_password>@internship-tracker-clus.7pu5uql.mongodb.net/?appName=internship-tracker-cluster")
+.then(()=> console.log("MongoDB Connected"))
+.catch(err =>console.log(err));
+
+
 
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
