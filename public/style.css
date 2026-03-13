@@ -1,0 +1,27 @@
+
+body{
+font-family: Arial;
+margin:40px;
+background:#f4f4f4;
+}
+
+h1{
+color:#333;
+}
+
+.form input, .form select{
+padding:8px;
+margin:5px;
+}
+
+button{
+padding:8px 12px;
+background:#3498db;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+ul{
+margin-top:20px;
+}
